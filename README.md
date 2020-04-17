@@ -1,5 +1,12 @@
 #  Documentation
 
+
+---
+**NOTE**
+
+This is the version of the nlp pipeline as submitted as a bachelor thesis. The development repository can be found here: < add link to new repo>
+
+---
 ## create nlp-pipeline docker container
 
 1. Change to the directory with the dockerfile
@@ -58,7 +65,7 @@ learn model MNB
 predict MNB
 ```curl 'http://127.0.0.1:5000/nlp/project_a/predict?algorithm=MNB&text=told%20work%20joke%20fail' -X POST -v ```
 
-#known problems
+# known problems
 ## macOS curl on terminal "zsh: no matches found:"
  On macOS the curl command may cause problems. The solution is to set the URL in '.
  
